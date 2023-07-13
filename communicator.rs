@@ -14,7 +14,7 @@ pub enum Command
 
 /**
     Adds functionality to Command enums
-    Commands can be converted to strings with the as_str method
+    Commands are converted to strings with the as_str method
     
     Command     |     String format
     ---------------------------------------------------------
@@ -81,8 +81,8 @@ impl Command {
 }
 
 /**
-    Complete this method that converts a string to a command 
-    We list the format of the input strings below
+    Method converts a string to a command. 
+    List of the format of the input strings shown below.
 
     Command     |     String format
     ---------------------------------------------
